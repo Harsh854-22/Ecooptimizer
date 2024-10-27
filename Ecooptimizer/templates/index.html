@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoOptimizer Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>EcoOptimizer Dashboard</h1>
+    </header>
+    <main>
+        <section id="real-time-data">
+            <h2>Real-Time Server Usage</h2>
+            <div id="usage-chart"></div>
+        </section>
+        <section id="optimization-results">
+            <h2>Load Optimization Results</h2>
+            <div id="optimization-chart"></div>
+        </section>
+        <section id="load-prediction">
+            <h2>Load Prediction</h2>
+            <div id="prediction-chart"></div>
+        </section>
+        <section id="performance-metrics">
+            <h2>Performance Metrics</h2>
+            <div id="metrics-container"></div>
+        </section>
+    </main>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
